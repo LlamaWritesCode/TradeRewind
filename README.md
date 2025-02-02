@@ -1,4 +1,4 @@
-### **📜 MoneyBee 🐝 - AI-Powered Trading Assistant**
+## **📜 MoneyBee 🐝 - AI-Powered Trading Assistant**
 
 > **Because no money, no honey!** 🍯💰
 
