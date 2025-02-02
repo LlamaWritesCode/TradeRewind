@@ -2,7 +2,7 @@ import openai
 import os
 
 def ai_trading_coach(trade_history_records):
-    openai_api_key = os.getenv("OPENAI_API_KEY")
+    openai_api_key = os.getenv("OPENAI_KEY")
 
     if not openai_api_key:
         return "❌ OpenAI API key is missing. Please set it in your environment variables."
