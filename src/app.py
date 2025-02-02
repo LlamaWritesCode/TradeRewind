@@ -8,11 +8,10 @@ from data_fetcher import fetch_stock_data
 from data_forecaster import forecast_with_prophet
 from simulate_trade import simulate_trade_outcome
 
-st.set_page_config(page_title="AI Trading Assistant", layout="wide")
+st.set_page_config(page_title="TradeRewind", layout="wide")
 st.markdown("""
-    <h1 style="text-align: center;">MoneyBee 🐝</h1> 
-    <p style="text-align: center; font-size: 15px;">An AI Tool That Analyzes Your Trading Mistakes And Much More! </p>
-    <h4 style="text-align: center; font-style: italic; margin-bottom:2%;">Because no money, no honey!</h4>
+    <h1 style="text-align: center;">TradeRewind</h1> 
+    <p style="text-align: center; font-size: 17px;">An AI Tool That Analyzes Your Trading Mistakes And Much More! </p>
 """, unsafe_allow_html=True)
 
 \
