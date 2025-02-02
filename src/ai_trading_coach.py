@@ -1,7 +1,9 @@
 import openai
 import config
+import os
 
-openai.api_key = config.OPENAI_KEY
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
 
 def ai_trading_coach(mistakes):
     prompt = f"You are a trading coach. The user made these mistakes: {mistakes}. Provide trading advice."
