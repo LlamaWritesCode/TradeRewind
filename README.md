@@ -37,8 +37,8 @@
 
 ### **Step 1: Clone the Repository**
 
-`git clone https://github.com/LlamaWritesCode/money-bee.git
-cd money-bee`
+`git clone https://github.com/LlamaWritesCode/TradeRewind.git
+cd TradeRewind`
 
 ### **Step 2: Create a Virtual Environment**
 `python -m venv venv
