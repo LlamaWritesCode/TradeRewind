@@ -1,15 +1,20 @@
 import openai
-import config
 import os
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+def ai_trading_coach(trade_history_records):
+    openai_api_key = os.getenv("OPENAI_API_KEY")
 
+    if not openai_api_key:
+        return "❌ OpenAI API key is missing. Please set it in your environment variables."
 
-def ai_trading_coach(mistakes):
-    prompt = f"You are a trading coach. The user made these mistakes: {mistakes}. Provide trading advice."
-    response = openai.ChatCompletion.create(
-        model="gpt-4",
-        messages=[{"role": "system", "content": prompt}]
+    client = openai.OpenAI(api_key=openai_api_key)
+
+    response = client.chat.completions.create(
+        model="gpt-4", 
+        messages=[
+            {"role": "system", "content": "You are an AI trading coach providing expert financial insights."},
+            {"role": "user", "content": f"Analyze this trade history and provide suggestions: {trade_history_records}"}
+        ]
     )
-    return response["choices"][0]["message"]["content"]
-    
+
+    return response.choices[0].message.content.strip()
