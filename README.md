@@ -1,8 +1,7 @@
-## **📜 MoneyBee 🐝 - AI-Powered Trading Assistant**
+## **📜 TradeRewind - AI-Powered Trading Assistant**
 
-> **Because no money, no honey!** 🍯💰
 
-🚀 **MoneyBee** is an AI-powered trading assistant that helps traders **analyze mistakes**, **predict stock prices**, **simulate alternative scenarios**, and **receive expert trading insights**. Upload your trade history and let MoneyBee do the rest!
+🚀 **TradeRewind** is an AI-powered trading assistant that helps traders **analyze mistakes**, **predict stock prices**, **simulate alternative scenarios**, and **receive expert trading insights**. Upload your trade history and let TradeRewind do the rest!
 
 * * * * *
 
@@ -38,8 +37,8 @@
 
 ### **Step 1: Clone the Repository**
 
-`git clone https://github.com/your-username/moneybee-ai.git
-cd moneybee-ai`
+`git clone https://github.com/LlamaWritesCode/money-bee.git
+cd money-bee`
 
 ### **Step 2: Create a Virtual Environment**
 `python -m venv venv
